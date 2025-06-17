@@ -296,7 +296,7 @@
                      <p:pipe step="formatter" port="result"/>
                   </p:input>
                   <p:input port="parameters">
-                     <p:empty/>
+                     <p:pipe step="format" port="parameters"/>
                   </p:input>
                </p:xslt>
             </p:when>
