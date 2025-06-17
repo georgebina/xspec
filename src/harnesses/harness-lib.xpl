@@ -145,9 +145,6 @@
             <p:input port="stylesheet">
                <p:pipe port="result" step="compiler"/>
             </p:input>
-            <p:input port="parameters">
-               <p:empty/>
-            </p:input>
          </p:xslt>
       </p:group>
 
